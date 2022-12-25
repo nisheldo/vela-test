@@ -1,0 +1,8 @@
+version: "1"
+
+steps:
+  - name: hello
+    image: bash
+    pull: always
+    commands:
+      - echo "Hello"
